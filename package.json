@@ -1,0 +1,38 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "facebook web",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parksy1775/facebook.git"
+  },
+  "keywords": [
+    "facebook"
+  ],
+  "author": "Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parksy1775/facebook/issues"
+  },
+  "homepage": "https://github.com/parksy1775/facebook#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react-hot-loader": "^4.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
