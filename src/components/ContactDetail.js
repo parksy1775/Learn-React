@@ -43,6 +43,12 @@ export default class ContactDetail extends React.Component{
     this.props.onEdit(this.state.name, this.state.phone);
   }
 
+  handleKeyPress(e){
+    if(e.charCode===13){
+      this.handleToggle();
+    }
+  }
+
   render()
   {
 
@@ -80,9 +86,7 @@ export default class ContactDetail extends React.Component{
 
     return (
       <div>
-      dd
       <div>{ this.props.isSelected ? view : blank }</div>
-
         <button onClick={this.handleToggle}>{this.state.isEdit? 'OK' : 'Edit'}</button>
         <button onClick={this.props.onRemove}>Remove</button>
       </div>
